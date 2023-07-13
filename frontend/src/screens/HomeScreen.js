@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useReducer } from "react";
 import axios from "axios";
-import logger from "use-reducer-logger";
 
 const reducer = (state, action) => {
    switch (action.type) {
@@ -17,14 +16,11 @@ const reducer = (state, action) => {
 };
 
 function HomeScreen() {
-   const [{ loading, error, products }, dispatch] = useReducer(
-      logger(reducer),
-      {
-         loading: true,
-         error: "",
-         products: [],
-      }
-   );
+   const [{ loading, error, products }, dispatch] = useReducer(reducer, {
+      loading: true,
+      error: "",
+      products: [],
+   });
    useEffect(() => {
       const fetchData = async () => {
          dispatch({ type: "FETCH_REQUEST" });
