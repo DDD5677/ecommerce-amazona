@@ -8,3 +8,4 @@
 5. Create Node.js Server
 6. Fetch products from backend
 7. Add Bootstrap UI web application
+8. Create Cart and rating

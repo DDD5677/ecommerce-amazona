@@ -17,6 +17,12 @@ main {
    flex: 1;
 }
 
+.rating span {
+   color: #ffc000;
+}
+
+
+
 .products {
    display: flex;
    flex-wrap: wrap;
