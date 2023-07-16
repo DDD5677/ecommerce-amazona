@@ -14,3 +14,4 @@
 11. Create react context
 12. Complete Add to Cart
 13. Create Cart screen
+14. Complete Card Screen
