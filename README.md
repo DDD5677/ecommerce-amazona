@@ -15,3 +15,5 @@
 12. Complete Add to Cart
 13. Create Cart screen
 14. Complete Card Screen
+15. Connect MongoDB
+16. Seed Product data
